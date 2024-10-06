@@ -13,7 +13,13 @@ python 3.11.1
 
 ## 利用方法
 
-1. .env ファイルを以下のフォーマットで用意する
+1. requirements.txt よりライブラリをインストール
+
+```
+$ pip install -r requirements.txt
+```
+
+2. .env ファイルを以下のフォーマットで用意する
 
 ```
 COSMOS_DB_URI=<your-cosmos-db-uri>
@@ -22,7 +28,7 @@ COSMOS_DB_DATABASE_ID=<your-database-id>
 COSMOS_DB_CONTAINER_ID=<your-container-id>
 ```
 
-2. python <利用したいファイル名>.py で実行
+3. python <利用したいファイル名>.py で実行
 
 ## ファイル説明
 
